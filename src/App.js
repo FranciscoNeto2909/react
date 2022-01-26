@@ -1,8 +1,10 @@
 import React from 'react';
-import Lista from './componentes/ListaDeNotas';
+import Form from './componentes/Form';
+import'./App.css';
 export default function App() {
-  return (<>
-  <h1>teste</h1>
-  <Lista/>
+  return (
+  <>
+    <h1>Formulário</h1>
+    <Form/>
   </>);
 } 
